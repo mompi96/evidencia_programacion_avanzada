@@ -10,7 +10,8 @@
 https://colab.research.google.com/drive/1RRKbSqwGum_hHmWe848vzQDrknKL5-ty?usp=sharing#scrollTo=kRzrAIElTr59
 
 
-```python numeros = [1, 2, 3, 4, 5, 5, 6, 7, 8, 9, 10]
+```python 
+numeros = [1, 2, 3, 4, 5, 5, 6, 7, 8, 9, 10]
 print(numeros)
 numeros.sort()
 print(numeros)
@@ -32,7 +33,8 @@ numeros.extend([numero_a_agregar])
 numero_a_agregar = 11
 print("Lista después de agregar el número", numero_a_agregar, ":", numeros)
 numeros.sort()
-print("Lista actualizada en orden:", numeros)```
+print("Lista actualizada en orden:", numeros)
+```
 
 
 
