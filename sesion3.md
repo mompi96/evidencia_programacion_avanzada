@@ -7,6 +7,9 @@
 <!-- Su documentación aquí -->
 
 
+https://colab.research.google.com/drive/1RRKbSqwGum_hHmWe848vzQDrknKL5-ty?usp=sharing
+
+
 ```python
 numeros = [1, 2, 3, 4, 5, 5, 6, 7, 8, 9, 10]
 print(numeros)
