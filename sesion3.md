@@ -43,6 +43,11 @@ https://colab.research.google.com/drive/1RRKbSqwGum_hHmWe848vzQDrknKL5-ty?usp=sh
 
 
 ```python 
+
+lista
+
+
+
 numeros = [1, 2, 3, 4, 5, 5, 6, 7, 8, 9, 10]
 print(numeros)
 numeros.sort()
@@ -67,6 +72,89 @@ print("Lista después de agregar el número", numero_a_agregar, ":", numeros)
 numeros.sort()
 print("Lista actualizada en orden:", numeros)
 ```
+
+
+```python 
+
+conjuntos
+
+conjunto_numeros = set(range(1, 11))
+print(conjunto_numeros)
+numero_a_agregar = 11
+conjunto_numeros.add(numero_a_agregar)
+print(conjunto_numeros)
+numero_a_eliminar = 5
+conjunto_numeros.remove(numero_a_eliminar)
+print(conjunto_numeros)
+cantidad_elementos = len(conjunto_numeros)
+print("El conjunto tiene", cantidad_elementos, "elementos.")
+numero_a_buscar = 5
+if numero_a_buscar in conjunto_numeros:
+    print(f"El número {numero_a_buscar} está en el conjunto.")
+else:
+    print(f"El número {numero_a_buscar} no está en el conjunto.")
+numero_a_buscar = 11
+if numero_a_buscar in conjunto_numeros:
+    print(f"El número {numero_a_buscar} está en el conjunto.")
+else:
+    print(f"El número {numero_a_buscar} no está en el conjunto.")
+conjunto_palabras = {"Hola", "mundo", "Python"}
+print(conjunto_palabras)
+palabra_a_buscar = "Hola"
+if palabra_a_buscar in conjunto_palabras:
+    print(f"La palabra '{palabra_a_buscar}' está en el conjunto.")
+else:
+    print(f"La palabra '{palabra_a_buscar}' no está en el conjunto.")
+
+palabra_a_buscar = "mundo"
+if palabra_a_buscar in conjunto_palabras:
+    print(f"La palabra '{palabra_a_buscar}' está en el conjunto.")
+else:
+    print(f"La palabra '{palabra_a_buscar}' no está en el conjunto.")
+
+```
+
+```python
+diccionario
+
+
+dias_semana = {
+    "Lunes": 1,
+    "Martes": 2,
+    "Miércoles": 3,
+    "Jueves": 4,
+    "Viernes": 5,
+    "Sábado": 6,
+    "Domingo": 7
+}
+
+print(dias_semana)
+numero_lunes = dias_semana["Lunes"]
+print(f"El número correspondiente al día 'Lunes' es: {numero_lunes}")
+numero_a_buscar = 2
+for dia, numero in dias_semana.items():
+    if numero == numero_a_buscar:
+        dia_correspondiente = dia
+        break
+else:
+    dia_correspondiente = "No encontrado"
+print(f"El día de la semana correspondiente al número {numero_a_buscar} es: {dia_correspondiente}")
+if "Lunes" in dias_semana:
+    dias_semana.pop("Lunes")
+print(dias_semana)
+dias_semana = {
+    "Lunes": 1,
+    "Martes": 2,
+    "Miércoles": 3,
+    "Jueves": 4,
+    "Viernes": 5,
+    "Sábado": 6,
+    "Domingo": 7
+}
+print(dias_semana)
+
+```
+
 
 
 
