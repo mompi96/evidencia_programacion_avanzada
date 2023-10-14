@@ -5,7 +5,7 @@
 
 
 <!-- Su documentación aquí -->
-'''python
+´´´python
 import pandas as pd
 import numpy as np
 
@@ -20,7 +20,7 @@ df_autos = pd.DataFrame({'marca': marcas, 'modelo': modelos, 'anio': anios, 'pre
 
 # Mostrar el DataFrame
 print(df_autos)
-'''
+´´´
 
 
 [actividad_11](https://colab.research.google.com/drive/17Q7dKolvYv-5EF1O1uPUu7N9tLHZd9Bt?usp=sharing){:target="_blank"}
